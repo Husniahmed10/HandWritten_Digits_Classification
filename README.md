@@ -46,12 +46,4 @@ The following technologies were used to build this project:
 ### 8. **Model File (models.h5)**
    - **H5 Format:** The trained model is saved in HDF5 format (.h5) using Keras' `model.save()` method. This file contains the architecture, weights, and training configuration of the CNN model.
 
-## Installation
 
-To run this project locally, follow these steps:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/handwritten-digit-recognizer.git
-cd handwritten-digit-recognizer
