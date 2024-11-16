@@ -46,4 +46,5 @@ The following technologies were used to build this project:
 ### 8. **Model File (models.h5)**
    - **H5 Format:** The trained model is saved in HDF5 format (.h5) using Keras' `model.save()` method. This file contains the architecture, weights, and training configuration of the CNN model.
 
+![Screenshot 2024-11-16 131236](https://github.com/user-attachments/assets/c47f718f-a729-4aff-908c-1aaf2032c47a)
 
