@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Recognizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>Digit Recognizer</h1>
+        <p>Upload an image of a handwritten digit, and we'll recognize it for you!</p>
+        <form id="upload-form">
+            <div class="input-area">
+                <label for="file-input" class="file-label">
+                    <img src="upload-icon.svg" alt="Upload Icon" class="upload-icon">
+                    Select an Image
+                </label>
+                <input type="file" id="file-input" accept="image/*" onchange="displayPreview(event)">
+            </div>
+            <div id="image-preview" class="image-preview">
+                <p>No image uploaded.</p>
+            </div>
+            <button type="button" onclick="predictDigit()">Predict</button>
+        </form>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
