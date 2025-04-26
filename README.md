@@ -2,7 +2,7 @@
 
 This project implements a handwritten digit recognition system using deep learning, specifically Convolutional Neural Networks (CNNs), to classify images of handwritten digits from the MNIST dataset. The model is built using TensorFlow and Keras, and the project also includes a Flask web application for making predictions through a user interface.
 
-## Project Overview
+## Overview
 
 The goal of this project is to classify images of handwritten digits (0-9) into their corresponding digit using a Convolutional Neural Network (CNN). The CNN is trained on the MNIST dataset, which consists of 28x28 pixel grayscale images of handwritten digits. The trained model can be used to predict handwritten digits uploaded by users.
 
